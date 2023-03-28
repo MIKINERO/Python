@@ -14,19 +14,33 @@ if jednostki not in lista:
         jednostki=int(input("Wybierz operację: "))
 
 if jednostki==1:
-    a=int(input("Podaj prędkość a: "))
+    a=float(input("Podaj prędkość a: "))
     print(a/3,6)
 
 elif jednostki==2:
-    a=int(input("Podaj prędkość a: "))
+    a=float(input("Podaj prędkość a: "))
     print(a*3,6)
 
 elif jednostki==3:
-    a=int(input("Podaj wartość a: "))
+    a=float(input("Podaj wartość a: "))
     if a<=0:
          print("Wartość nie moze być mniejsza lub równa 0")
          while a<=0:
-              a=int(input("Podaj wartość a: "))
+              a=float(input("Podaj wartość a: "))
     print(a*10000)
 
-elif jednostki==4
+elif jednostki==4:
+    a=float(input("Podaj wartość a: "))
+    if a<=0:
+         print("Wartość nie moze być mniejsza lub równa 0")
+         while a<=0:
+              a=float(input("Podaj wartość a: "))
+    print(a/10000)
+
+elif jednostki==5:
+    a=float(input("Podaj wartość a: "))
+    print(a*0.3048)
+
+elif jednostki==6:
+    a=float(input("Podaj wartość a: "))
+    print(a/0.3048)
