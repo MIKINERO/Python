@@ -6,7 +6,7 @@ print("Naciśnij 2 aby wybrać Kamień")
 print("Naciśnij 3 aby wybrać Nozyce")
 a=int(input("Wybierz obiekt: "))
 if a not in lista:
-    print("Wybierz poprawną obiekt")
+    print("Wybierz poprawny obiekt")
     while a not in lista:
         a=int(input("Wybierz obiekt: "))
 
