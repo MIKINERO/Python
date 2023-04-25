@@ -14,27 +14,27 @@ if a not in lista:
     while a not in lista:
         a=int(input("Wybierz liczbę: "))
 
-elif b not in lista:
+if b not in lista:
     print("Wybierz poprawną liczbę")
     while b not in lista:
         b=int(input("Wybierz liczbę: "))
 
-elif c not in lista:
+if c not in lista:
     print("Wybierz poprawną liczbę")
     while c not in lista:
         c=int(input("Wybierz liczbę: "))
 
-elif d not in lista:
+if d not in lista:
     print("Wybierz poprawną liczbę")
     while d not in lista:
         d=int(input("Wybierz liczbę: "))
 
-elif e not in lista:
+if e not in lista:
     print("Wybierz poprawną liczbę")
     while e not in lista:
         e=int(input("Wybierz liczbę: "))
 
-elif f not in lista:
+if f not in lista:
     print("Wybierz poprawną liczbę")
     while f not in lista:
         f=int(input("Wybierz liczbę: "))
