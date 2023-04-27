@@ -9,6 +9,6 @@ def generowanie(dlugosc):
 
     return haslo
 
-dlugosc=int(input("Podaj długość hasła"))
+dlugosc=int(input("Podaj długość hasła: "))
 
 print(generowanie(dlugosc))
