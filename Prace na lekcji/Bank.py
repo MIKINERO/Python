@@ -3,19 +3,19 @@ ręka=int(input("Ile masz pieniędzy przy sobie?: "))
 while True:
     lista=[1, 2, 3, 4]
 
-    print("Wybierz działanie")
+    print("Wybierz czynność")
 
     print("Naciśnij 1 aby wpłacić")
     print("Naciśnij 2 aby wypłacić")
     print("Naciśnij 3 aby wyświlić stan konta")
     print("Naciśnij 4 aby wyświlić ile masz pieniędzy przy sobie")
 
-    a=int(input("Wybierz działanie: "))
+    a=int(input("Wybierz czynność: "))
 
     if a not in lista:
-        print("Wybierz poprawne działanie")
+        print("Wybierz poprawne czynność")
         while a not in lista:
-            a=int(input("Wybierz działanie: "))
+            a=int(input("Wybierz czynność: "))
 
     if a==1:
         b=int(input("Ile chcesz wpłacieć pieniędzy: "))
