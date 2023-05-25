@@ -7,8 +7,8 @@ while True:
 
     print("Naciśnij 1 aby wpłacić")
     print("Naciśnij 2 aby wypłacić")
-    print("Naciśnij 3 aby wyświlić stan konta")
-    print("Naciśnij 4 aby wyświlić ile masz pieniędzy przy sobie")
+    print("Naciśnij 3 aby wyświetlić stan konta")
+    print("Naciśnij 4 aby wyświetlić ile masz pieniędzy przy sobie")
 
     a=int(input("Wybierz czynność: "))
 
