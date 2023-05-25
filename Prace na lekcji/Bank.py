@@ -18,7 +18,7 @@ while True:
             a=int(input("Wybierz czynność: "))
 
     if a==1:
-        b=int(input("Ile chcesz wpłacieć pieniędzy: "))
+        b=int(input("Ile chcesz wpłacić pieniędzy: "))
         konto=konto+b   
         ręka=ręka-b
 
