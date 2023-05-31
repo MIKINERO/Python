@@ -1,7 +1,7 @@
 import math
 lista=[1,2,3,4,5,6]
 print("Naciśnij 1 aby policzyć pole kwadratu")
-print("Naciśnij 2 aby policzyć pole prostokonta")
+print("Naciśnij 2 aby policzyć pole prostokąta")
 print("Naciśnij 3 aby policzyć pole trójkąta")
 print("Naciśnij 4 aby policzyć pole koła")
 print("Naciśnij 5 aby policzyć pole trapezu")
